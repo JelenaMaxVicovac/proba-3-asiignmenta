@@ -17,3 +17,5 @@ manager.display_products()
 
 #prikaz ukupne vrednosti svih proizvoda
 manager.total_value()
+
+manager.name_removal ("cokolada")

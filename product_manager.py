@@ -20,6 +20,14 @@ class ProductManager():
         for i in self.lista:
             suma+=i.price*i.quantity
         print (f"Ukupna vrednost svih proizvoda je:{suma}")
+    
+    #funkcija za uklanjanje prema imenu
+    def name_removal(self,name):
+        for i in self.lista:
+            if i.name == name:
+                self.lista.remove(i)
+                print (f"Product {i.name} has been removed")
+           
 
             
             
